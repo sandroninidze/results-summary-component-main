@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ## Colors
+
+### Primary
+
+- Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%)
+
+## Gradients
+
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Pale blue: hsl(221, 100%, 96%)
+- Light lavender: hsl(241, 100%, 89%)
+- Dark gray blue: hsl(224, 30%, 27%) */
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: hsl(221, 100%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-card {
+  background-color: #fff;
+  border-radius: 18px;
+  display: flex;
+  width: 600px;
+  height: 400px;
+}
+
+.left-card {
+  width: 50%;
+  background-color: hsl(241, 81%, 54%);
+  border-radius: 18px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 20px;
+}
+
+.circle {
+  border-radius: 100%;
+  background-color: hsla(256, 72%, 46%, 1);
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+.circle h3 {
+  font-size: 40px;
+  
+}
+
+.circle p {
+  font-size: 13px;
+  color: gray;
+}
+
+.right-card {
+  padding: 29px;
+  width: 50%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 13px;
+  
+  
+}
+
+.row-red {
+  background-color: hsla(0, 100%, 67%, 0.253);
+  color:hsla(0, 100%, 67%, 0.774) ;
+}
+
+.row-yellow {
+  background-color: hsla(39, 100%, 56%, 0.151);
+  color: hsl(39, 100%, 56%);
+}
+
+.row-green {
+  background-color: hsla(166, 100%, 37%, 0.171);
+  color: hsl(166, 100%, 37%);
+}
+
+.row-blue {
+  background-color: hsla(234, 85%, 45%, 0.171);
+  color:  hsl(234, 85%, 45%);
+}
+
+.numbers {
+  margin-left: auto;
+  color: black;
+}
+
+.row img{
+  margin-right: 10px;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  padding: 14px;
+  margin-top: 10px;
+  background-color: rgba(34, 34, 190, 0.925);
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top:40px;
+}
+
+.par {
+  margin: 30px;
+}
+
+.head-summary{
+  margin-bottom: 15px;
+}
+
+.houndred{
+  color: grey;
+}
+
+
+
+
